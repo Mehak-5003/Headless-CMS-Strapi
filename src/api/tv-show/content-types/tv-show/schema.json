@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tv_shows",
+  "info": {
+    "singularName": "tv-show",
+    "pluralName": "tv-shows",
+    "displayName": "TV Show"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Rating": {
+      "type": "decimal"
+    },
+    "Genre": {
+      "type": "string"
+    },
+    "Released": {
+      "type": "date"
+    }
+  }
+}
